@@ -55,7 +55,7 @@ class ListController extends Controller
             $lists = Lists::all();
         }
 
-        return view('welcome', compact('lists'));
+        return view('home', compact('lists'));
     }
 
 
